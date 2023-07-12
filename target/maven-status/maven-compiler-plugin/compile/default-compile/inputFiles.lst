@@ -1,0 +1,10 @@
+/home/xenieze/NetBeansProjects/concesionario/src/main/java/com/gorotech/concesionario/Concesionario.java
+/home/xenieze/NetBeansProjects/concesionario/src/main/java/com/gorotech/concesionario/logica/Controladora.java
+/home/xenieze/NetBeansProjects/concesionario/src/main/java/com/gorotech/concesionario/persistencia/AutomovilJpaController.java
+/home/xenieze/NetBeansProjects/concesionario/src/main/java/com/gorotech/concesionario/persistencia/exceptions/IllegalOrphanException.java
+/home/xenieze/NetBeansProjects/concesionario/src/main/java/com/gorotech/concesionario/igu/Principal.java
+/home/xenieze/NetBeansProjects/concesionario/src/main/java/com/gorotech/concesionario/persistencia/exceptions/NonexistentEntityException.java
+/home/xenieze/NetBeansProjects/concesionario/src/main/java/com/gorotech/concesionario/persistencia/ControladoraPersistencia.java
+/home/xenieze/NetBeansProjects/concesionario/src/main/java/com/gorotech/concesionario/igu/AltaAutomovil.java
+/home/xenieze/NetBeansProjects/concesionario/src/main/java/com/gorotech/concesionario/logica/Automovil.java
+/home/xenieze/NetBeansProjects/concesionario/src/main/java/com/gorotech/concesionario/persistencia/exceptions/PreexistingEntityException.java
