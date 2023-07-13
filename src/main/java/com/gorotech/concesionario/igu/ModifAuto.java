@@ -12,7 +12,7 @@ public class ModifAuto extends javax.swing.JFrame {
     Automovil auto = new Automovil();
 
     public ModifAuto(int idAuto) {
-        new Controladora();
+        control = new Controladora();
         initComponents();
         cargarDatosAuto(idAuto);
     }
@@ -198,9 +198,16 @@ public class ModifAuto extends javax.swing.JFrame {
      String patente = txtPatente.getText();
      int cantPuertas = Integer.parseInt(txtCantPuertas.getText());
      
-     control.modificarAuto(modelo, marca,motor,color,patente,cantPuertas);
+     control.modificarAuto(auto,modelo, marca,motor,color,patente,cantPuertas);
      
      mostrarMensaje("Edición realizada correctamente","Info","Edición Exitosa");
+     
+     ConsultaAutomovil consul = new ConsultaAutomovil();
+     consul.setVisible(true);
+     consul.setLocationRelativeTo(null);
+     
+     this.dispose();
+     
     }//GEN-LAST:event_btnModificarActionPerformed
 
     private void btnLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimpiarActionPerformed
